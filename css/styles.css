@@ -6095,23 +6095,23 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: #f31025a8 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: #f31025a8 !important;
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: #ffc107 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-  background-color: #1a252f !important;
+  background-color: ##ffc107 !important;
 }
 
 .bg-success {
@@ -10094,7 +10094,7 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #0000001a;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
