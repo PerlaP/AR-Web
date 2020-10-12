@@ -9,12 +9,9 @@
         <a-scene embedded arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false">
             <a-marker preset="hiro">
         <!-- Adding an OBJ file to an AR Project-->
-                <a-assets>
-                    <a-asset-item id="tree-obj" src="/assets/img/portfolio/caracter/A.obj"></a-asset-item>
-                    <a-asset-item id="tree-mtl" src="/assets/img/portfolio/caracter/A.mtl"></a-asset-item>
-                </a-assets>
                 
-                <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>           
+                <a-entity obj-model="obj: url(/assets/img/portfolio/caracter/A.obj); mtl: url(/assets/img/portfolio/caracter/A.mtl"></a-entity>
+
             </a-marker>
             <a-entity camera></a-entity>
         </a-scene>
