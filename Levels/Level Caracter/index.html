@@ -50,7 +50,7 @@
         <a-scene embedded arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false">
             <a-marker preset="hiro">
                 <a-entity id="entityID1">
-                    <a-entity  obj-model = "obj: url (../assets\img\portfolio\caracter\A.obj); mtl: url (assets\img\portfolio\caracter\A.mtl)" > </a-entity>
+                    <a-entity position='0 0.5 0' material='opacity: 10;' scale='.50 .50 .50' obj-model = "obj: url (../assets\img\portfolio\caracter\A.obj); mtl: url (assets\img\portfolio\caracter\A.mtl)" > </a-entity>
                 </a-entity>               
                 <script>
                     document.getElementById("btn1").addEventListener("click", (e)=>{
